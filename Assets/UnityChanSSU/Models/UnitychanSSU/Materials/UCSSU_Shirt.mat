@@ -181,7 +181,7 @@ Material:
     - Vector1_DD3E7449: 0.01
     - Vector1_FDD381BC: 0.63
     - _1st2nd_Shades_Feather: 0.0001
-    - _1st_ShadeColor_Feather: 0.0001
+    - _1st_ShadeColor_Feather: 0.1
     - _1st_ShadeColor_Step: 0.829
     - _2nd_ShadeColor_Feather: 0.0001
     - _2nd_ShadeColor_Step: 0.582
@@ -195,7 +195,7 @@ Material:
     - _Ap_RimLight_Power: 0.1
     - _AutoRenderQueue: 1
     - _BaseColor_Step: 0.829
-    - _BaseShade_Feather: 0.0001
+    - _BaseShade_Feather: 0.1
     - _Base_Speed: 0
     - _Blend: 0
     - _BlurLevelMatcap: 0
@@ -307,8 +307,8 @@ Material:
     - _ZWriteMode: 1
     - _simpleUI: 0
     - _utsTechnique: 0
-    - _utsVersionX: 8
-    - _utsVersionY: 0
+    - _utsVersionX: 2
+    - _utsVersionY: 4
     - _utsVersionZ: 0
     m_Colors:
     - Color_76BAA23A: {r: 0.3773585, g: 0.3773585, b: 0.3773585, a: 0}
@@ -329,6 +329,7 @@ Material:
     - _RimLightColor: {r: 0.5372549, g: 0.51532483, b: 0.45490196, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _ViewShift: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
 --- !u!114 &5680017219100234620
 MonoBehaviour:
   m_ObjectHideFlags: 11

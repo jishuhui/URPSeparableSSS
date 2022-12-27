@@ -16,7 +16,7 @@ namespace UnityEngine.Rendering.Universal
         static readonly int MainTexId = Shader.PropertyToID("_MainTex");
         static readonly int TempTargetId = Shader.PropertyToID("Destination");
 
-        const int nSamples = 11;
+        const int nSamples = 64;
         private Vector4[] kernel = new Vector4[nSamples];
 
         private Vector3 Gaussian(float variance, float r, Vector3 falloff)
